@@ -1,4 +1,16 @@
 Proyecto Clone de Mercado Libre
+
+  Actividad Nº 2
+
+    - Crear buscador de productos utilizando la api de Mercado Libre
+    - usar Axios para hacer una llamada a https://api.mercadolibre.com/sites/MLC/search?q={query}
+    - Donde query es obtenido por medio input de tipo text (componente controlado)
+    - Tomar los items de los resultados de busqueda y guardar en el state items
+    - Pintar los resultados de busqueda como una lista.
+    - Utiliza como ejemplo el formato de los rows de los resultados de busqueda (https://listado.mercadolibre.cl/iphone)
+    - Cada fila debe contener imagen del producto, titulo y precio
+    - Agregar dentro del .nav-header el logo (https://http2.mlstatic.com/ui/navigation/4.5.0/mercadolibre/logo__large_plus@2x.png)
+    
 ![Home](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepage.png)
 ![Mobile](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepagemx.png)
 ## Proyecto Clone de Mercado Libre para aprender react.js
