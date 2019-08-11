@@ -10,7 +10,9 @@ Proyecto Clone de Mercado Libre
     - Utiliza como ejemplo el formato de los rows de los resultados de busqueda (https://listado.mercadolibre.cl/iphone)
     - Cada fila debe contener imagen del producto, titulo y precio
     - Agregar dentro del .nav-header el logo (https://http2.mlstatic.com/ui/navigation/4.5.0/mercadolibre/logo__large_plus@2x.png)
-    
+se debe instalar axios npm i axios
+cambie material ui por https://getuikit.com/
+
 ![Home](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepage.png)
 ![Mobile](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepagemx.png)
 ## Proyecto Clone de Mercado Libre para aprender react.js
@@ -54,6 +56,7 @@ Este proyecto contempla la manipulación de estados
 
     - Auto Close tag -> permite que cada etiqueta html generada se cierre de forma automatica -> https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
     - Prettier -> Es un formateador de codigo -> https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    - brackert pair colorizer 2 ayuda con los colores de la identezación -> https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
 ### `Creación de proyecto`
 
 Comando de creación de proyecto

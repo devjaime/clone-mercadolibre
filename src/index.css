@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: whitesmoke;
+  min-height: 100%;
+}
+.navBar {
+  background-color: #FBF159;
+  color: #777340;
+}
+
+.navBarDegradeitor {
+  background-color: #FBF159;
+}
+h1 {
+  color: #777340;
+  font-weight: 900;
+}
