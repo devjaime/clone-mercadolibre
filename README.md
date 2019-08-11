@@ -3,7 +3,7 @@ Proyecto Clone de Mercado Libre
 ![Mobile](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepagemx.png)
 ## Proyecto Clone de Mercado Libre para aprender react.js
 
-React es una libreria de javascript para construir interaces web
+React es una libreria de javascript para construir interfaces web
 
 React utiliza JSX que es una manera unir etiquetas con javascript
 

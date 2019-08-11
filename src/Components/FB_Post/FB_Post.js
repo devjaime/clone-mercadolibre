@@ -108,7 +108,7 @@ class FBPost extends React.Component {
           </div>
           <hr />
           <p style={{ fontSize: "10px", marginLeft: "5px" }}>
-            {likes[0]}, {likes[1]} y {likes.length - 2} Más
+            {likes[0]}, {likes[1]} y {likes.length - 1} Más
           </p>
           {showReactions && (
             <div
