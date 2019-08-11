@@ -23,9 +23,9 @@ React utiliza JSX que es una manera unir etiquetas con javascript
 
 Este proyecto contempla la manipulación de estados
 ### `Experimiento de integración continua con AzureDevOps`
-![Segunda versión app sin gestos FB ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/SegundaVersion.png)
-![Home](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepage.png)
-![Mobile](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepagemx.png)
+![Creación del proyecto en Azure DevOps ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/AzureDevOpsPaso1.png)
+![Tareas comprometidas en el proyecto](https://github.com/devjaime/clone-mercadolibre/blob/master/img/TareasenCurso.png)
+![Clonando Repositorio para subirlo a AzureRepo](https://github.com/devjaime/clone-mercadolibre/blob/master/img/ClonandoRepositorio.png)
 
 ### `Instalaciones necesarias para proyectos React`
 * Navegador Google Chrome
