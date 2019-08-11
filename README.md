@@ -22,7 +22,10 @@ React es una libreria de javascript para construir interfaces web
 React utiliza JSX que es una manera unir etiquetas con javascript
 
 Este proyecto contempla la manipulación de estados
-
+### `Experimiento de integración continua con AzureDevOps`
+![Segunda versión app sin gestos FB ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/SegundaVersion.png)
+![Home](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepage.png)
+![Mobile](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepagemx.png)
 
 ### `Instalaciones necesarias para proyectos React`
 * Navegador Google Chrome
