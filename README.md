@@ -27,6 +27,8 @@ Este proyecto contempla la manipulación de estados
 ![Tareas comprometidas en el proyecto](https://github.com/devjaime/clone-mercadolibre/blob/master/img/TareasenCurso.png)
 ![Clonando Repositorio para subirlo a AzureRepo](https://github.com/devjaime/clone-mercadolibre/blob/master/img/ClonandoRepositorio.png)
 
+![Idea de producto final un solo código un solo producto](https://github.com/devjaime/clone-mercadolibre/blob/master/img/unsoloproductofinalunsolocodigofuente.png)
+
 ### `Instalaciones necesarias para proyectos React`
 * Navegador Google Chrome
 * Es necesario instalar la versión estable (LTS) de node.js (puedes revisar la versión de node ocupada con el comando node -v).
