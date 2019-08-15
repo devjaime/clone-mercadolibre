@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Producto = ({producto}) => {
 
     // extraer el texto

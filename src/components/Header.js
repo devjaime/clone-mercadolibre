@@ -44,18 +44,18 @@ class Header extends Component {
                                                 e.preventDefault();
                                                 value.obtenerProductos(this.state)
                                             }}
-                                        >
-                                            
+                                        >      
                                     <input
                                             name="nombre"
-                                            className="uk-input uk-form-width-small"
+                                            className="uk-input uk-form-width-large"
                                             type="text"
-                                            placeholder="Producto"
+                                            placeholder="Buscar productos, marcas y más.."
                                             onChange={this.obtenerDatosProducto}
                                         />
-                      
-                                     <input type="submit" className="uk-button uk-button-default" value="Buscar" />   
-                                     <span className="uk-icon uk-margin-small-right" uk-icon="icon: search"></span>     
+                                        <span className="uk-icon uk-margin-small-right" uk-icon="icon: search">
+                                            <input type="submit" className="uk-button uk-button-default uk-icon" value="Buscar" />   
+                                        </span>  
+                          
                                     </form>
                                 </div>
 
