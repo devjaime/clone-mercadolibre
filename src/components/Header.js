@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ProductosConsumer } from '../context/ProductosContext';
-
+import {Avatar} from "@material-ui/core";
 class Header extends Component {
     state = { 
         nombre: ''
@@ -15,7 +15,8 @@ class Header extends Component {
    
     render() { 
         const Mercadolibreurl="https://www.mercadolibre.cl/";
-        const img = <img src="https://http2.mlstatic.com/ui/navigation/4.5.0/mercadolibre/logo__large_plus@2x.png" alt="Mercado Libre"/>
+        const img = <img src="https://http2.mlstatic.com/ui/navigation/4.5.0/mercadolibre/logo__large_plus@2x.png" alt="Mercado Libre"/>;
+        const avatar="https://devjaime.github.io/images/jaime.png";
         return ( 
             <ProductosConsumer>
                 {(value) => {
@@ -58,7 +59,14 @@ class Header extends Component {
                           
                                     </form>
                                 </div>
-
+                                <div>
+                                
+                                        <Avatar aria-label="Profile Picture" className="uk-margin-large-left">
+                                            <img src={avatar} alt="" width="40px" height="40px" />
+                                            
+                                        </Avatar>
+                                        <span className="uk-icon uk-margin-large-left" uk-icon="icon: users">Jaime Hernández</span>
+                                </div>
                             </div>
                         </nav>
 
