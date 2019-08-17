@@ -82,6 +82,11 @@ class FBPost extends React.Component {
    }
 
   render() {
+    var cuenta=0;
+    function contar(like) {
+      cuenta=like + 1;
+      return cuenta
+    };
     const { classes, post, producto } = this.props;
     const {
       showReactions,
@@ -94,7 +99,7 @@ class FBPost extends React.Component {
       reactAngry,
       reactHaha,
       reactSad
-      // whNUM
+      //whNUM
     } = this.state;
      window.addEventListener("resize", this.onresize);
 
@@ -146,7 +151,7 @@ class FBPost extends React.Component {
           </div>
           <hr />
           <p style={{ fontSize: "10px", marginLeft: "5px" }}>
-            {likes[0]}, {likes[1]} and {likes.length - 2} others
+            {likes[0]}, {likes[1]} y {contar(likes.length)} Más
           </p>
           {showReactions && (
             <div
