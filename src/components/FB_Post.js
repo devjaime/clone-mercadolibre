@@ -102,6 +102,13 @@ class FBPost extends React.Component {
       //whNUM
     } = this.state;
      window.addEventListener("resize", this.onresize);
+     function mercadopago(mercadopago){
+      if (mercadopago)
+          return "https://devjaime.github.io/images/jaime.png";
+      else
+        return "https://devjaime.github.io/images/jaime.png";
+     };
+    
 
     return (
       <div>
@@ -109,7 +116,7 @@ class FBPost extends React.Component {
           <CardHeader
             avatar={
               <Avatar aria-label="Profile Picture">
-                <img src={producto.thumbnail} alt="" width="40px" height="40px" />
+                <img src={mercadopago(producto.accepts_mercadopago)} alt="" width="40px" height="40px" />
               </Avatar>
             }
             action={
