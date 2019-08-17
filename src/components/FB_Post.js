@@ -38,7 +38,7 @@ class FBPost extends React.Component {
       showReactions: false,
       likeBtnFlag: false,
       likes: props.post.likes,
-      // whNUM: 0,
+      whNUM: 0,
       // reactions on hover like button
       reactLike: false,
       reactLove: false,
@@ -50,7 +50,7 @@ class FBPost extends React.Component {
     };
     this.handlerShowReactions = this.handlerShowReactions.bind(this);
     this.handleLike = this.handleLike.bind(this);
-    // this.onresize = this.onresize.bind(this);
+    this.onresize = this.onresize.bind(this);
   }
 
   handleLike() {
@@ -65,21 +65,21 @@ class FBPost extends React.Component {
     this.setState({ showReactions: param });
   }
 
-  // onresize() {
-  //   let width = window.outerWidth;
+   onresize() {
+     let width = window.outerWidth;
 
-  //   if (width <= 530) {
-  //     this.setState({ whNUM: 100 });
-  //   } else if (width >= 1600 || (width >= 1024 && width <= 1440)) {
-  //     this.setState({ whNUM: 34 });
-  //   } else if (width > 530 && width < 1024) {
-  //     this.setState({ whNUM: 70 });
-  //   }
-  // }
+     if (width <= 530) {
+       this.setState({ whNUM: 100 });
+     } else if (width >= 1600 || (width >= 1024 && width <= 1440)) {
+       this.setState({ whNUM: 34 });
+     } else if (width > 530 && width < 1024) {
+       this.setState({ whNUM: 70 });
+     }
+   }
 
-  // componentDidMount() {
-  //    this.onresize();
-  // }
+   componentDidMount() {
+      this.onresize();
+   }
 
   render() {
     const { classes, post, producto } = this.props;
@@ -96,7 +96,7 @@ class FBPost extends React.Component {
       reactSad
       // whNUM
     } = this.state;
-    // window.addEventListener("resize", this.onresize);
+     window.addEventListener("resize", this.onresize);
 
     return (
       <div>
