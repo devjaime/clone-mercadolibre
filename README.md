@@ -22,7 +22,7 @@ npm i --save react-facebook-emoji
 npm install react-fb-image-grid --save
 npm audit fix 
 
-![Tercera Versión en 3 columnas con gestos de FB incluidos ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/SegundaVersion.png)
+![Tercera Versión en 3 columnas con gestos de FB incluidos ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/3versionFBincluida.png)
 ![Segunda versión app sin gestos FB ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/SegundaVersion.png)
 ![Home](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepage.png)
 ![Mobile](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepagemx.png)
