@@ -12,6 +12,17 @@ Proyecto Clone de Mercado Libre
     - Agregar dentro del .nav-header el logo (https://http2.mlstatic.com/ui/navigation/4.5.0/mercadolibre/logo__large_plus@2x.png)
 se debe instalar axios npm i axios
 cambie material ui por https://getuikit.com/
+semana 16-08-2019
+se agregan 
+npm install @material-ui/icons --save
+npm install @material-ui/core --save
+npm install moment --save
+npm install react-fb-image-grid --save
+npm i --save react-facebook-emoji
+npm install react-fb-image-grid --save
+npm audit fix 
+
+![Tercera Versión en 3 columnas con gestos de FB incluidos ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/SegundaVersion.png)
 ![Segunda versión app sin gestos FB ](https://github.com/devjaime/clone-mercadolibre/blob/master/img/SegundaVersion.png)
 ![Home](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepage.png)
 ![Mobile](https://github.com/devjaime/clone-mercadolibre/blob/master/img/homepagemx.png)

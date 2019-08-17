@@ -1,6 +1,6 @@
 import React from 'react';
-import Producto from './Producto';
 import {ProductosConsumer } from '../context/ProductosContext';
+import ProductoReaccion from './ProductoReaccion';
 
 //uk-child-width-1-1@m si quiero hacerlo de 3 tarjetas o más solo debo cambiarlo a 1-3 
 const ListaProductos = () => {
@@ -9,7 +9,7 @@ const ListaProductos = () => {
             <ProductosConsumer>
                 {(value) => {
                     return value.productos.map(producto => (
-                        <Producto 
+                        <ProductoReaccion 
                             key={producto.id}
                             producto={producto}
                         />

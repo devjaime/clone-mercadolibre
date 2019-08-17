@@ -1,7 +1,7 @@
 import React from 'react';
-
+import ProductoReaccion from './ProductoReaccion'
 const Producto = ({producto}) => {
-
+     
     // extraer el texto
     let { text } = producto.title;
     if(text) {
@@ -35,6 +35,10 @@ const Producto = ({producto}) => {
                     </a>
                 </div>
             </div>
+            <div>
+                <ProductoReaccion producto={producto}/>
+            </div>
+
         </div>
      );
 }

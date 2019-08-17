@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "@material-ui/icons": "^4.2.1",
     "axios": "^0.18.1",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-facebook-emoji": "^1.0.11",
+    "react-fb-image-grid": "^0.1.5",
     "react-scripts": "3.0.1"
   },
   "scripts": {
