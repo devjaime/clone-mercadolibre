@@ -102,11 +102,11 @@ class FBPost extends React.Component {
       //whNUM
     } = this.state;
      window.addEventListener("resize", this.onresize);
-     function mercadopago(mercadopago){
-      if (mercadopago)
-          return "https://github.com/devjaime/clone-mercadolibre/blob/master/img/mercadopago.png";
+     function mercadopago(){
+      if (producto.accepts_mercadopago)
+          return "https://raw.githubusercontent.com/devjaime/clone-mercadolibre/master/img/mercadopago.png";
       else
-        return "https://github.com/devjaime/clone-mercadolibre/blob/master/img/pagoefectivo.png";
+        return "https://raw.githubusercontent.com/devjaime/clone-mercadolibre/master/img/pagoefectivo.png";
      };
     
 
@@ -116,15 +116,16 @@ class FBPost extends React.Component {
           <CardHeader
             avatar={
               <Avatar aria-label="Profile Picture">
-                <img src={mercadopago(producto.accepts_mercadopago)} alt="" width="40px" height="40px" />
+                <img src={producto.thumbnail} alt="M" width="40px" height="40px" />
               </Avatar>
+              
             }
             action={
               <IconButton>
                 <MoreVertIcon />
               </IconButton>
             }
-            title={producto.address.state_name + ' ' + producto.address.city_name }
+            title={producto.title }
             subheader={moment(post.createdAt).fromNow()}
           />
           <CardContent>
@@ -147,7 +148,22 @@ class FBPost extends React.Component {
                 <div className="uk-card-body">Precio 
                     <div className="uk-card-title">${producto.price}</div>
                     
-                </div>            
+                </div>   
+                <CardHeader
+                    avatar={
+                      <Avatar aria-label="Profile Picture">
+                        <img src={mercadopago()} alt="M" width="40px" height="40px" />
+                      </Avatar>
+                      
+                    }
+                    action={
+                      <IconButton>
+                        <MoreVertIcon />
+                      </IconButton>
+                    }
+                    title={producto.address.state_name + ' ' + producto.address.city_name }
+                    subheader={moment(post.createdAt).fromNow()}
+                />         
                 <div className="uk-card-footer navBarDegradeitor ">
                     <a target="_blank" rel="noopener noreferrer " href={producto.permalink} className="uk-button uk-button-primary  botondefecto">
                         Más Información
