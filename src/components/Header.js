@@ -48,7 +48,8 @@ class Header extends Component {
                                         >      
                                     <input
                                             name="nombre"
-                                            className="uk-input uk-form-width-large"
+                                            className="uk-input uk-form-width-large buscar"
+                                            
                                             type="text"
                                             placeholder="Buscar productos, marcas y más.."
                                             onChange={this.obtenerDatosProducto}
@@ -59,6 +60,7 @@ class Header extends Component {
                           
                                     </form>
                                 </div>
+                                <span className="uk-icon uk-margin-large-left" uk-icon="icon: cart">Disfruta de tu beneficio de envío gratis</span>
                                 <div>
                                 
                                         <Avatar aria-label="Profile Picture" className="uk-margin-large-left">

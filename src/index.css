@@ -17,10 +17,27 @@ body {
   background-color: #FBF159;
 }
 
+
 .botondefecto {
   background-color: #4482FF;
 }
 h1 {
   color: #777340;
   font-weight: 900;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .buscar{
+    width: 100%
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .buscar{
+    width: 500px
+  }
 }

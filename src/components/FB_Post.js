@@ -57,7 +57,7 @@ class FBPost extends React.Component {
     const { likes, likeBtnFlag, showReactions } = this.state;
 
     this.setState({ likeBtnFlag: !likeBtnFlag });
-    likes.includes("You") ? likes.shift("You") : likes.unshift("You");
+    likes.includes("Tu") ? likes.shift("Tu") : likes.unshift("Tu");
     this.setState({ likes, showReactions: !showReactions });
   }
 
@@ -109,7 +109,7 @@ class FBPost extends React.Component {
           <CardHeader
             avatar={
               <Avatar aria-label="Profile Picture">
-                <img src={post.avatar} alt="" width="40px" height="40px" />
+                <img src={producto.thumbnail} alt="" width="40px" height="40px" />
               </Avatar>
             }
             action={
@@ -117,7 +117,7 @@ class FBPost extends React.Component {
                 <MoreVertIcon />
               </IconButton>
             }
-            title={post.createdBy}
+            title={producto.address.state_name + ' ' + producto.address.city_name }
             subheader={moment(post.createdAt).fromNow()}
           />
           <CardContent>
