@@ -16,6 +16,10 @@ body {
 .navBarDegradeitor {
   background-color: #FBF159;
 }
+
+.botondefecto {
+  background-color: #4482FF;
+}
 h1 {
   color: #777340;
   font-weight: 900;

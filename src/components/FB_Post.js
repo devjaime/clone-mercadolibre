@@ -142,7 +142,7 @@ class FBPost extends React.Component {
                     
                 </div>            
                 <div className="uk-card-footer navBarDegradeitor ">
-                    <a target="_blank" rel="noopener noreferrer " href={producto.permalink} className="uk-button uk-button-primary navBar">
+                    <a target="_blank" rel="noopener noreferrer " href={producto.permalink} className="uk-button uk-button-primary  botondefecto">
                         Más Información
                     </a>
                 </div>
