@@ -8,6 +8,7 @@
     "axios": "^0.18.1",
     "moment": "^2.24.0",
     "react": "^16.8.6",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.6",
     "react-facebook-emoji": "^1.0.11",
     "react-fb-image-grid": "^0.1.5",

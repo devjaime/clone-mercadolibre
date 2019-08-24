@@ -26,6 +26,14 @@ h1 {
   font-weight: 900;
 }
 
+.foo-appear {
+  opacity: .01;
+}
+
+.foo-appear.foo-appear-active {
+  opacity: 1;
+  transition: opacity 5s ease-in;
+}
 
 
 @media only screen and (min-width: 600px) {

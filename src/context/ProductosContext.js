@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 const ProductosContext = React.createContext();
 export const ProductosConsumer = ProductosContext.Consumer;
+
 
 class ProductosProvider extends Component {
 
@@ -21,7 +23,14 @@ class ProductosProvider extends Component {
 
     render() { 
         return (
-          <ProductosContext.Provider
+          <ReactCSSTransitionGroup n
+          transitionName="foo" 
+          transitionAppear={true}
+          transitionAppearTimeout={5000}
+          transitionEnter={false}
+          transitionLeave={false}>
+           
+           <ProductosContext.Provider
             value={{
               productos: this.state.productos,
               obtenerProductos: this.obtenerProductos
@@ -29,6 +38,8 @@ class ProductosProvider extends Component {
           >
             {this.props.children}
           </ProductosContext.Provider>
+        </ReactCSSTransitionGroup> 
+         
         );
     }
 }

@@ -13,6 +13,21 @@ Proyecto Clone de Mercado Libre
 se debe instalar axios npm i axios
 cambie material ui por https://getuikit.com/
 semana 16-08-2019
+semana 24-08-2019
+usando como base el código de la actividad 2 para agregar las siguientes funcionalidades:
+- Agregar react-router para separar en 2 vistas:
+-Listado de búsqueda
+-Detalle de producto, donde la vista recibe como parámetro el item id.
+-Usar una transición para moverse entre las distintas vistas.
+-En la vista de "Detallle de producto" debemos hacer una llamada a 
+- http://api.mercadolibre.com/items/:ITEMID
+- En la vista de detalle dejarla lo similar a la VIP de Mercado Libre
+Al volver desde la vista de detalleal resultado de busqueda con la ´última búsqueda
+-Algunas restricciones:
+-No usuar componentes visuales de terceros
+- Usar el maximo de componentes de tipo funcion.
+- El proyecto debe tener un mínimo de Cobertura del 60 %.
+
 se agregan 
 npm install @material-ui/icons --save
 npm install @material-ui/core --save
